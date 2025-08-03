@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
+</head>
+<body>
+
+    <div id="wrapper">
+        <form>
+            <br>
+            <fieldset>
+                <legend>Calculater</legend>
+                <br>
+                <label for="num1">1st Number:</label> &nbsp;
+                <input type="text" id="firstNumber">
+                <br><br>
+                <label for="num2">2nd Number:</label>
+                <input type="text" id="secondNumber">
+                <br><br>
+                <input type="button"  id="btn" onClick="multiply()" value="multiply">
+                <input type="button" id="btn" onClick="devide()" value="devide">
+                <br><br>
+                <p>The result is :
+                    <span id="result"></span>
+                </p>
+            </fieldset>
+         
+        </form>
+    </div>
+    
+</body>
+</html>
